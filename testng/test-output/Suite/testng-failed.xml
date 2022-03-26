@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testng.TESTcase2">
+        <methods>
+          <include name="check17"/>
+          <include name="check18"/>
+          <include name="check19"/>
+        </methods>
+      </class> <!-- testng.TESTcase2 -->
+      <class name="testng.Testcase4">
+        <methods>
+          <include name="check29"/>
+          <include name="check28"/>
+          <include name="check27"/>
+        </methods>
+      </class> <!-- testng.Testcase4 -->
+      <class name="testng.Testcase1">
+        <methods>
+          <include name="cjheck15"/>
+          <include name="check14"/>
+          <include name="check13"/>
+          <include name="check11"/>
+        </methods>
+      </class> <!-- testng.Testcase1 -->
+      <class name="testng.Dashboard1">
+        <methods>
+          <include name="checkcoursesListedonDashboard"/>
+        </methods>
+      </class> <!-- testng.Dashboard1 -->
+      <class name="testng.Testcase3">
+        <methods>
+          <include name="check23"/>
+          <include name="check25"/>
+          <include name="check22"/>
+        </methods>
+      </class> <!-- testng.Testcase3 -->
+      <class name="testng.LOgintesting">
+        <methods>
+          <include name="check11"/>
+          <include name="check5"/>
+          <include name="check4"/>
+          <include name="check7"/>
+          <include name="check3"/>
+          <include name="check2"/>
+          <include name="check9"/>
+          <include name="check8"/>
+        </methods>
+      </class> <!-- testng.LOgintesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
